@@ -1,13 +1,14 @@
 [build]
-  publish = "dist"  # Ajusta si tu carpeta de salida es diferente
+  publish = "dist"  # Ensure this matches your build output directory
   command = "npm run build"
 
 [[headers]]
   for = "*.js"
+  for = "*.ts"
   [headers.values]
     Content-Type = "application/javascript"
 
 [[headers]]
-  for = "/*"
+  for = "*.css"
   [headers.values]
-    Content-Type = "text/html"
+    Content-Type = "text/css"
