@@ -1,0 +1,8 @@
+[build]
+  publish = "dist" # o la carpeta donde se generan tus archivos
+  command = "npm run build"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Type = "application/javascript"
