@@ -1,9 +1,13 @@
 [build]
-  publish = "dist"  # Ensure this matches your build output directory
+  publish = "dist"  # Asegúrate de que coincida con tu directorio de salida
   command = "npm run build"
 
 [[headers]]
   for = "*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+
+[[headers]]
   for = "*.ts"
   [headers.values]
     Content-Type = "application/javascript"
