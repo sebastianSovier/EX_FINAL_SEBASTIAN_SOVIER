@@ -1,5 +1,5 @@
 [build]
-  publish = "dist" # o la carpeta donde se generan tus archivos
+  publish = "dist"  # Adjust if your build directory is different
   command = "npm run build"
 
 [[headers]]
