@@ -34,7 +34,7 @@
               placeholder="Buscar"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">Búsqueda</button>
+            <button class="btn btn-outline-success" type="button">Búsqueda</button>
           </form>
         </div>
       </div>
